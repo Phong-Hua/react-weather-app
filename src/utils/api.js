@@ -1,4 +1,4 @@
-const api = 'http://localhost:5000';
+const api = 'https://hua-node-weather-app-api.herokuapp.com';
 
 const forecast = (address) => fetch(`${api}/?search=${address}`)
     .then(response => response.json())
